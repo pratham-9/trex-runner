@@ -79,10 +79,10 @@ function setup() {
 
 function draw() {
   
-  background('blue');
+  background('white');
   //displaying score
   text("Score: "+ score, 500,50);
-  
+  //
   
   if(gameState === PLAY){
 
